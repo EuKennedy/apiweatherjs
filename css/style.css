@@ -11,28 +11,28 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(345deg, #00a5ff, #0079ff);
+    background: linear-gradient(270deg, #320a4e, #2c0b61);
     background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 0s ease infinite;
-    -moz-animation: AnimationName 0s ease infinite;
-    animation: AnimationName 0s ease infinite;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:33% 0%}
-    50%{background-position:68% 100%}
-    100%{background-position:33% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:33% 0%}
-    50%{background-position:68% 100%}
-    100%{background-position:33% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @keyframes AnimationName {
-    0%{background-position:33% 0%}
-    50%{background-position:68% 100%}
-    100%{background-position:33% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .hide{
@@ -40,11 +40,11 @@ body{
 }
 
 .container{
-    background-color: #5c54ed;
+    background-color: #0b085665;
     border-radius: 10px;
     padding: 2rem;
-    color: #fdfdfd;
-    box-shadow: 2px 6px 15px #160a28;
+    color: #fdfdfd; 
+    box-shadow: 12px 6px 16px #000000;
 }
 
 /* form */
@@ -67,8 +67,8 @@ body{
     padding: 0.8rem;
     min-width: 50px;
     margin-left: 8px;
-    background-color: #8dd0f5;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
