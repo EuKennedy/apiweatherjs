@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(270deg, #320a4e, #2c0b61);
+    background: linear-gradient(270deg, #5a0c91, #15052f);
     background-size: 400% 400%;
 
     -webkit-animation: AnimationName 30s ease infinite;
@@ -40,7 +40,7 @@ body{
 }
 
 .container{
-    background-color: #0b085665;
+    background-color: #120f7365;
     border-radius: 10px;
     padding: 2rem;
     color: #fdfdfd; 
@@ -119,4 +119,9 @@ body{
     border-right: 1px solid #ffff;
     margin: 0.6rem;
     padding: 0.6rem;
+}
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
 }
